@@ -1,0 +1,119 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-image: url("images/bg-pattern-top.svg"),
+    url("images/bg-pattern-bottom.svg");
+  background-repeat: no-repeat, no-repeat;
+  background-position: right 30vw bottom 30vh, left 40vw top 50vh;
+  background-color: hsl(185, 75%, 39%);
+  font-family: "Kumbh Sans", sans-serif;
+  color: hsl(229, 23%, 23%);
+}
+
+h2 {
+  font-family: "Kumbh Sans", sans-serif;
+  position: relative;
+  font-size: 18px;
+  bottom: 80px;
+  padding: 30px;
+}
+
+span {
+  position: relative;
+  font-size: 18px;
+  bottom: 128px;
+  left: 80px;
+  color: hsl(227, 10%, 46%);
+}
+
+p {
+  position: relative;
+  bottom: 120px;
+  padding: 10px;
+  font-size: 14px;
+}
+
+img {
+  width: 400px;
+  position: relative;
+  right: 20px;
+  bottom: 20px;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+}
+
+hr {
+  color: hsl(0, 0%, 59%);
+  width: 398px;
+  position: relative;
+  bottom: 100px;
+  right: 20px;
+}
+
+.container {
+  position: relative;
+  top: 100px;
+  left: 35px;
+  text-align: center;
+  border-radius: 15px;
+  padding: 20px;
+  font-size: 18px;
+  height: 420px;
+  width: 360px;
+  background-color: #fff;
+}
+.victor-image {
+  width: 100px;
+  border-style: solid;
+  border-radius: 50%;
+  border-color: #fff;
+  border-width: 5px;
+  position: relative;
+  bottom: 80px;
+  left: 5px;
+}
+
+.footer-h2 {
+  position: relative;
+  text-align: left;
+  bottom: 110px;
+}
+.footer-p {
+  text-align: left;
+  position: relative;
+  bottom: 140px;
+  left: 10px;
+}
+.footer-h2-2 {
+  position: relative;
+  bottom: 225px;
+}
+.footer-p-2 {
+  position: relative;
+  bottom: 255px;
+}
+.footer-h2-3 {
+  text-align: right;
+  position: relative;
+  bottom: 340px;
+}
+.footer-p-3 {
+  text-align: right;
+  position: relative;
+  bottom: 370px;
+  right: 15px;
+}
+
+@media (min-width: 600px) {
+  body {
+    background-position: right 45vw bottom 30vh, left 40vw top 50vh;
+  }
+  .container {
+    position: relative;
+    left: 460px;
+    right: 200px;
+  }
+}
